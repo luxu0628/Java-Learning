@@ -17,7 +17,6 @@ public class LlmCreatingCode {
         while (attempts > 0) {
             System.out.print("请输入你的猜测：");
             int guess = scanner.nextInt();
-
             if (guess == numberToGuess) {
                 System.out.println("🎉 恭喜你，猜对了！答案就是 " + numberToGuess);
                 break;
